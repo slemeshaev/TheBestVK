@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD9D49BDF43C4E6D6D89844 /* Pods_TheBestVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6E853F0FA3D8D33C68F683 /* Pods_TheBestVK.framework */; };
 		66109E972496AA2100EE3F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109E962496AA2100EE3F19 /* AppDelegate.swift */; };
 		66109E992496AA2100EE3F19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109E982496AA2100EE3F19 /* SceneDelegate.swift */; };
-		66109E9B2496AA2100EE3F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109E9A2496AA2100EE3F19 /* ViewController.swift */; };
-		66109E9E2496AA2100EE3F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66109E9C2496AA2100EE3F19 /* Main.storyboard */; };
 		66109EA02496AA2300EE3F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66109E9F2496AA2300EE3F19 /* Assets.xcassets */; };
 		66109EA32496AA2300EE3F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66109EA12496AA2300EE3F19 /* LaunchScreen.storyboard */; };
+		66109EB92496BBAD00EE3F19 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66109EB82496BBAD00EE3F19 /* AuthViewController.storyboard */; };
+		66109EBB2496BBE200EE3F19 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109EBA2496BBE200EE3F19 /* AuthViewController.swift */; };
+		66109EBD2496C16E00EE3F19 /* VkLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109EBC2496C16E00EE3F19 /* VkLoginViewController.swift */; };
+		66109EBF2496C33E00EE3F19 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109EBE2496C33E00EE3F19 /* Session.swift */; };
+		66109EC12496C65800EE3F19 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66109EC02496C65800EE3F19 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E6E853F0FA3D8D33C68F683 /* Pods_TheBestVK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBestVK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66109E932496AA2100EE3F19 /* TheBestVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBestVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66109E962496AA2100EE3F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66109E982496AA2100EE3F19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66109E9A2496AA2100EE3F19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66109E9D2496AA2100EE3F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66109E9F2496AA2300EE3F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66109EA22496AA2300EE3F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66109EA42496AA2300EE3F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66109EB82496BBAD00EE3F19 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		66109EBA2496BBE200EE3F19 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		66109EBC2496C16E00EE3F19 /* VkLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkLoginViewController.swift; sourceTree = "<group>"; };
+		66109EBE2496C33E00EE3F19 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		66109EC02496C65800EE3F19 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D9428B0AE2C10B7CD447C0AD /* Pods-TheBestVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBestVK.debug.xcconfig"; path = "Target Support Files/Pods-TheBestVK/Pods-TheBestVK.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9FC825B3D684AD9072435C /* Pods-TheBestVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBestVK.release.xcconfig"; path = "Target Support Files/Pods-TheBestVK/Pods-TheBestVK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD9D49BDF43C4E6D6D89844 /* Pods_TheBestVK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F49998D9F9B4965906B11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E6E853F0FA3D8D33C68F683 /* Pods_TheBestVK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66109E8A2496AA2100EE3F19 = {
 			isa = PBXGroup;
 			children = (
 				66109E952496AA2100EE3F19 /* TheBestVK */,
 				66109E942496AA2100EE3F19 /* Products */,
+				7B1E9444840720FB0601C898 /* Pods */,
+				16F49998D9F9B4965906B11C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,137 @@
 			children = (
 				66109E962496AA2100EE3F19 /* AppDelegate.swift */,
 				66109E982496AA2100EE3F19 /* SceneDelegate.swift */,
-				66109E9A2496AA2100EE3F19 /* ViewController.swift */,
-				66109E9C2496AA2100EE3F19 /* Main.storyboard */,
-				66109E9F2496AA2300EE3F19 /* Assets.xcassets */,
-				66109EA12496AA2300EE3F19 /* LaunchScreen.storyboard */,
-				66109EA42496AA2300EE3F19 /* Info.plist */,
+				66109EAA2496B81D00EE3F19 /* Auth */,
+				66109EAB2496B85300EE3F19 /* Services */,
+				66109EAD2496B89000EE3F19 /* Newsfeed */,
+				66109EB42496B93E00EE3F19 /* Messages */,
+				66109EB32496B91600EE3F19 /* Friends */,
+				66109EB52496B96200EE3F19 /* Groups */,
+				66109EB62496B97C00EE3F19 /* Helpers */,
+				66109EB72496B98900EE3F19 /* Views */,
 			);
 			path = TheBestVK;
+			sourceTree = "<group>";
+		};
+		66109EAA2496B81D00EE3F19 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				66109EBA2496BBE200EE3F19 /* AuthViewController.swift */,
+				66109EB82496BBAD00EE3F19 /* AuthViewController.storyboard */,
+				66109EBC2496C16E00EE3F19 /* VkLoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		66109EAB2496B85300EE3F19 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				66109EBE2496C33E00EE3F19 /* Session.swift */,
+				66109EAC2496B86300EE3F19 /* Models */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66109EAC2496B86300EE3F19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66109EAD2496B89000EE3F19 /* Newsfeed */ = {
+			isa = PBXGroup;
+			children = (
+				66109EAE2496B8A800EE3F19 /* TitleView */,
+				66109EAF2496B8B100EE3F19 /* Scene */,
+				66109EB02496B8B900EE3F19 /* Cell */,
+				66109EB12496B8C400EE3F19 /* GalleryView */,
+				66109EB22496B8CE00EE3F19 /* FooterView */,
+			);
+			path = Newsfeed;
+			sourceTree = "<group>";
+		};
+		66109EAE2496B8A800EE3F19 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		66109EAF2496B8B100EE3F19 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		66109EB02496B8B900EE3F19 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		66109EB12496B8C400EE3F19 /* GalleryView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GalleryView;
+			sourceTree = "<group>";
+		};
+		66109EB22496B8CE00EE3F19 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		66109EB32496B91600EE3F19 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		66109EB42496B93E00EE3F19 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		66109EB52496B96200EE3F19 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		66109EB62496B97C00EE3F19 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				66109E9F2496AA2300EE3F19 /* Assets.xcassets */,
+				66109EA12496AA2300EE3F19 /* LaunchScreen.storyboard */,
+				66109EC02496C65800EE3F19 /* UIViewController+Extension.swift */,
+				66109EA42496AA2300EE3F19 /* Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		66109EB72496B98900EE3F19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B1E9444840720FB0601C898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9428B0AE2C10B7CD447C0AD /* Pods-TheBestVK.debug.xcconfig */,
+				DC9FC825B3D684AD9072435C /* Pods-TheBestVK.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66109EA72496AA2300EE3F19 /* Build configuration list for PBXNativeTarget "TheBestVK" */;
 			buildPhases = (
+				8684D2BE561D20B68916713C /* [CP] Check Pods Manifest.lock */,
 				66109E8F2496AA2100EE3F19 /* Sources */,
 				66109E902496AA2100EE3F19 /* Frameworks */,
 				66109E912496AA2100EE3F19 /* Resources */,
+				A2FF51AEB49A49FFA11038C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +273,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				66109EA32496AA2300EE3F19 /* LaunchScreen.storyboard in Resources */,
+				66109EB92496BBAD00EE3F19 /* AuthViewController.storyboard in Resources */,
 				66109EA02496AA2300EE3F19 /* Assets.xcassets in Resources */,
-				66109E9E2496AA2100EE3F19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8684D2BE561D20B68916713C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheBestVK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FF51AEB49A49FFA11038C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBestVK/Pods-TheBestVK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBestVK/Pods-TheBestVK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheBestVK/Pods-TheBestVK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66109E8F2496AA2100EE3F19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66109E9B2496AA2100EE3F19 /* ViewController.swift in Sources */,
+				66109EC12496C65800EE3F19 /* UIViewController+Extension.swift in Sources */,
+				66109EBF2496C33E00EE3F19 /* Session.swift in Sources */,
 				66109E972496AA2100EE3F19 /* AppDelegate.swift in Sources */,
+				66109EBB2496BBE200EE3F19 /* AuthViewController.swift in Sources */,
 				66109E992496AA2100EE3F19 /* SceneDelegate.swift in Sources */,
+				66109EBD2496C16E00EE3F19 /* VkLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66109E9C2496AA2100EE3F19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66109E9D2496AA2100EE3F19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66109EA12496AA2300EE3F19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +466,12 @@
 		};
 		66109EA82496AA2300EE3F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9428B0AE2C10B7CD447C0AD /* Pods-TheBestVK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GWB2H668N;
-				INFOPLIST_FILE = TheBestVK/Info.plist;
+				INFOPLIST_FILE = TheBestVK/Helpers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,11 +486,12 @@
 		};
 		66109EA92496AA2300EE3F19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9FC825B3D684AD9072435C /* Pods-TheBestVK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GWB2H668N;
-				INFOPLIST_FILE = TheBestVK/Info.plist;
+				INFOPLIST_FILE = TheBestVK/Helpers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

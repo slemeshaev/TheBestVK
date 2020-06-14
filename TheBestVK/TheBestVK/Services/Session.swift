@@ -6,4 +6,14 @@
 //  Copyright © 2020 Станислав Лемешаев. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Session {
+    private init() {}
+    
+    public static let shared = Session()
+    
+    var token = ""
+    var userId = 0
+    
+}
